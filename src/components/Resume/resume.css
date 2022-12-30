@@ -1,0 +1,9 @@
+.resume .container {
+  display: flex;
+  gap: 1rem;
+  margin-top: -80px;
+  justify-content: space-around;
+  width: 100%;
+
+
+}

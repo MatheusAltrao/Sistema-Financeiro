@@ -1,0 +1,31 @@
+/* td {
+  padding-top: 1rem;
+  text-align: center;
+  word-break: break-all;
+
+} */
+
+tr {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+  max-width: 200px;
+
+
+}
+
+
+.icon-trash {
+  font-size: 23px;
+  color: var(--purple-color);
+  cursor: pointer;
+}
+
+@media(width<500px) {
+  td {
+    font-size: 14px;
+  }
+}

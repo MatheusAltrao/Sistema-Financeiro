@@ -1,0 +1,43 @@
+.resume-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  background-color: #fff;
+  border-radius: 4px;
+
+  width: 100%;
+  max-width: 400px;
+
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+  padding: 1rem 0;
+
+  position: relative;
+}
+
+.resume-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.resume-number {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.icon {
+  font-size: 26px;
+}
+
+@media(width<500px) {
+  .resume-title {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .resume-number {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

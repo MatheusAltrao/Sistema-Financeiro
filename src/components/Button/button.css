@@ -1,0 +1,16 @@
+.submit {
+  font-weight: 900;
+  background-color: var(--purple-color);
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid var(--purple-color);
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.4);
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #fff;
+  color: var(--purple-color);
+}
